@@ -11,7 +11,7 @@ public class Main {
         Book whiteFang = new Book("Белый Клык", jackLondon, 1996 );
         Book martinId = new Book("Мартин Иден", jackLondon, 1909);
 //В том же методе main измените год публикации одной из книг с помощью сеттера.
-        whiteFang.setYear(1906);
+//        whiteFang.setYear(1906);
 // проверка
          //System.out.println("whiteFang = " + whiteFang.getYear());
 //        Реализуйте методы toString, equals и hashCode в классах Author и Book, которые вы создали на прошлом уроке.
