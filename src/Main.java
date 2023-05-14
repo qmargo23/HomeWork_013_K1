@@ -13,7 +13,23 @@ public class Main {
 //В том же методе main измените год публикации одной из книг с помощью сеттера.
         whiteFang.setYear(1906);
 // проверка
-//        System.out.println("whiteFang = " + whiteFang.getYear());
+         //System.out.println("whiteFang = " + whiteFang.getYear());
+//        Реализуйте методы toString, equals и hashCode в классах Author и Book, которые вы создали на прошлом уроке.
+
+        System.out.println(markTwain);
+        System.out.println(martinId);
+// equals
+        System.out.println("_______equals________ ");
+        Author markTwain2 = new Author("Марк2","Твейн");
+        if (markTwain2.equals(markTwain)) {
+            System.out.println("Внимание есть дубликат книги!");
+        } else System.out.println("Дубликаты книг не найдены.");
+        // hashCode
+        System.out.println("_______hashCode________ ");
+        Author jackLondon2 = new Author("Джек","Лондон");
+
+        System.out.println("jackLondon.hashCode() = " + jackLondon.hashCode());
+        System.out.println("jackLondon2.hashCode() = " + jackLondon2.hashCode());
 
     }
 }
